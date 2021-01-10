@@ -41,7 +41,7 @@ position: relative;
 }
 
 .botoes ul li{
-	margin-left: 10px;
+	margin-left: 20px;
 	display: inline-block;
 	float: left;
 }
@@ -60,9 +60,17 @@ position: relative;
 	display: inline-block;
 	color: #A9A9A9;
 	margin-left: 35px;
+	height: 45px;
 }
 
-.menu a{
+.menu ul li:hover{
+	border-bottom: 3px solid #F4A460;
+}
+.menu ul li a:hover{
+	color: #F4A460;
+}
+
+.menu ul li  a{
 	color: #A9A9A9;
 	font-size: 15px;
 	text-transform: uppercase;
@@ -100,3 +108,32 @@ position: relative;
 	border-bottom: 3px solid #FF6347;
 	height: 80px;
 }
+
+
+.secao{
+	width: 100%;
+	float: left;
+	height: 500px;
+	
+}
+
+.principalsecao{
+
+padding: 5px;
+
+height: 450px;
+
+
+margin: 0 auto;
+width: 980px;
+position: relative;
+
+}
+
+#banner{
+	width:91%;
+	height: 450px;
+	transition: 3s;
+
+}
+
